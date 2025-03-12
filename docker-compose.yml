@@ -55,6 +55,11 @@ services:
       AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
       AWS_DEFAULT_REGION: ${AWS_DEFAULT_REGION}
       JAVA_HOME: /usr/lib/jvm/java-11-openjdk-amd64
+      PYTHONPATH: /opt/airflow/scripts
+      # MinIO Credentials
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+      
     volumes:
       - ./dags:/opt/airflow/dags
       - ./scripts:/opt/airflow/scripts
@@ -73,9 +78,30 @@ services:
         airflow webserver
         "
 
+  api-gateway:
+    build:
+      context: .
+      dockerfile: Dockerfile.api-gateway
+    environment:
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+      AWS_DEFAULT_REGION: ${AWS_DEFAULT_REGION}
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+    volumes:
+      - ./scripts/api/api_gateway.py:/app/main.py
+    ports:
+      - "8000:80"
+    depends_on:
+      minio:
+        condition: service_healthy
+    networks:
+      - env-net
+
 volumes:
   minio_data:
   postgis_data:
 
 networks:
   env-net:
+    driver: bridge

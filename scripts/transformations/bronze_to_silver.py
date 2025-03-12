@@ -3,12 +3,17 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, explode
 from pyspark.sql.types import StructType, StructField, StringType, DoubleType, ArrayType, BooleanType, LongType
 from dotenv import load_dotenv
+import logging
 
+# Configure logging
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logger = logging.getLogger(__name__)
 
 def clean_location_data():
     # Load environment variables
     load_dotenv()
     
+    logger.info("Starting bronze_to_silver transformation")
     # Validate credentials
     aws_access_key = os.getenv("AWS_ACCESS_KEY_ID")
     aws_secret_key = os.getenv("AWS_SECRET_ACCESS_KEY")
@@ -142,6 +147,19 @@ def clean_location_data():
         .parquet(silver_path)
 
     print(f"Cleaned data written to S3: {silver_path}")
+
+    # Reconfigure Spark for MinIO
+    spark_minio = SparkSession.builder \
+        .appName("RawToStaging_Locations_MinIO") \
+        .config("spark.hadoop.fs.s3a.access.key", os.getenv("MINIO_ROOT_USER", "minioadmin")) \
+        .config("spark.hadoop.fs.s3a.secret.key", os.getenv("MINIO_ROOT_PASSWORD", "minioadmin")) \
+        .config("spark.hadoop.fs.s3a.endpoint", "http://minio:9000") \
+        .config("spark.hadoop.fs.s3a.path.style.access", "true") \
+        .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:3.3.1,com.amazonaws:aws-java-sdk-bundle:1.12.262") \
+        .getOrCreate()
+
+    # Write to MinIO (same path, different endpoint)
+    cleaned_df.write.mode("overwrite").parquet("s3a://openaq-locations-data/silver/locations")
 
 if __name__ == "__main__":
         

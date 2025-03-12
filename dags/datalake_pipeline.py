@@ -4,11 +4,11 @@ from airflow.operators.python import PythonOperator
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.providers.amazon.aws.operators.s3 import S3ListOperator
 
-# Import your processing functions
-from scripts.ingestion.openaq_ingestion import main as ingest_openaq
-from scripts.transformation.bronze_to_silver import clean_location_data as bronze_to_silver
-from scripts.transformation.silver_to_gold_firstAnalysis import transform_location_data as silver_to_gold_first
-from scripts.transformation.silver_to_gold_secondAnalysis import analyze_sensor_instrument_data as silver_to_gold_second
+# Update these imports
+from ingestion.apiaq_ingestion import main as ingest_openaq
+from transformations.bronze_to_silver import clean_location_data as bronze_to_silver
+from transformations.silver_to_gold_firstAnalysis import transform_location_data as silver_to_gold_first
+from transformations.silver_to_gold_secondAnalysis import analyze_sensor_instrument_data as silver_to_gold_second
 
 default_args = {
     'owner': 'yvann',
