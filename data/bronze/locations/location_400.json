@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 400,
+      "name": "Kenosha-Water Tower",
+      "locality": null,
+      "timezone": "America/Chicago",
+      "country": {
+        "id": 155,
+        "code": "US",
+        "name": "United States"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 119,
+        "name": "AirNow"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 695,
+          "name": "o3 ppm",
+          "parameter": {
+            "id": 10,
+            "name": "o3",
+            "units": "ppm",
+            "displayName": "O\u2083"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 45.296,
+        "longitude": -87.886
+      },
+      "licenses": [
+        {
+          "id": 33,
+          "name": "US Public Domain",
+          "attribution": {
+            "name": "Unknown Governmental Organization",
+            "url": null
+          },
+          "dateFrom": "2016-01-30",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        -87.886,
+        45.296,
+        -87.886,
+        45.296
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-04-01T16:00:00Z",
+        "local": "2016-04-01T11:00:00-05:00"
+      },
+      "datetimeLast": {
+        "utc": "2016-05-23T21:00:00Z",
+        "local": "2016-05-23T16:00:00-05:00"
+      }
+    }
+  ]
+}

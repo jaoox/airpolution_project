@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 211,
+      "name": "Felton Cal-Fire",
+      "locality": null,
+      "timezone": "America/Los_Angeles",
+      "country": {
+        "id": 155,
+        "code": "US",
+        "name": "United States"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 119,
+        "name": "AirNow"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 354,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 37.0481,
+        "longitude": -122.074603
+      },
+      "licenses": [
+        {
+          "id": 33,
+          "name": "US Public Domain",
+          "attribution": {
+            "name": "Unknown Governmental Organization",
+            "url": null
+          },
+          "dateFrom": "2016-01-30",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        -122.074603,
+        37.0481,
+        -122.074603,
+        37.0481
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-03-07T15:00:00Z",
+        "local": "2016-03-07T07:00:00-08:00"
+      },
+      "datetimeLast": {
+        "utc": "2022-04-08T18:00:00Z",
+        "local": "2022-04-08T11:00:00-07:00"
+      }
+    }
+  ]
+}

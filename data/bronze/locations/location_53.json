@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 53,
+      "name": "Shenyang",
+      "locality": "Shenyang",
+      "timezone": "Asia/Shanghai",
+      "country": {
+        "id": 10,
+        "code": "CN",
+        "name": "China"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 230,
+        "name": "Shenyang"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 5079217,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 41.78,
+        "longitude": 123.42
+      },
+      "licenses": null,
+      "bounds": [
+        123.42,
+        41.78,
+        123.42,
+        41.78
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2021-05-18T01:00:00Z",
+        "local": "2021-05-18T09:00:00+08:00"
+      },
+      "datetimeLast": {
+        "utc": "2023-08-18T12:00:00Z",
+        "local": "2023-08-18T20:00:00+08:00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 225,
+      "name": "New Albany",
+      "locality": null,
+      "timezone": "America/Kentucky/Louisville",
+      "country": {
+        "id": 155,
+        "code": "US",
+        "name": "United States"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 119,
+        "name": "AirNow"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 3618,
+          "name": "o3 ppm",
+          "parameter": {
+            "id": 10,
+            "name": "o3",
+            "units": "ppm",
+            "displayName": "O\u2083"
+          }
+        },
+        {
+          "id": 368,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 3619,
+          "name": "so2 ppm",
+          "parameter": {
+            "id": 9,
+            "name": "so2",
+            "units": "ppm",
+            "displayName": "SO\u2082"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 38.30703,
+        "longitude": -85.832974
+      },
+      "licenses": [
+        {
+          "id": 33,
+          "name": "US Public Domain",
+          "attribution": {
+            "name": "Unknown Governmental Organization",
+            "url": null
+          },
+          "dateFrom": "2016-01-30",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        -85.832974,
+        38.30703,
+        -85.832974,
+        38.30703
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-03-06T20:00:00Z",
+        "local": "2016-03-06T15:00:00-05:00"
+      },
+      "datetimeLast": {
+        "utc": "2023-01-04T14:00:00Z",
+        "local": "2023-01-04T09:00:00-05:00"
+      }
+    }
+  ]
+}

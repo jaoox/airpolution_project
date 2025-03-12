@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 31,
+      "name": "Wekerom-Riemterdijk",
+      "locality": "Wekerom",
+      "timezone": "Europe/Amsterdam",
+      "country": {
+        "id": 94,
+        "code": "NL",
+        "name": "Netherlands"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 70,
+        "name": "EEA"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 4275693,
+          "name": "no \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 19843,
+            "name": "no",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "NO mass"
+          }
+        },
+        {
+          "id": 4642,
+          "name": "no2 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 5,
+            "name": "no2",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "NO\u2082 mass"
+          }
+        },
+        {
+          "id": 4649,
+          "name": "o3 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 3,
+            "name": "o3",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "O\u2083 mass"
+          }
+        },
+        {
+          "id": 4650,
+          "name": "pm10 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM10"
+          }
+        },
+        {
+          "id": 50,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 52.11162100019676,
+        "longitude": 5.708418999868416
+      },
+      "licenses": [
+        {
+          "id": 10,
+          "name": "ODC-BY",
+          "attribution": {
+            "name": "Unknown Governmental Organization",
+            "url": null
+          },
+          "dateFrom": "2016-11-17",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        5.708418999868416,
+        52.11162100019676,
+        5.708418999868416,
+        52.11162100019676
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-01-30T01:00:00Z",
+        "local": "2016-01-30T02:00:00+01:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-03-11T14:00:00Z",
+        "local": "2025-03-11T15:00:00+01:00"
+      }
+    }
+  ]
+}

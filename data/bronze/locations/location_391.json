@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 391,
+      "name": "Near Road",
+      "locality": null,
+      "timezone": "America/New_York",
+      "country": {
+        "id": 155,
+        "code": "US",
+        "name": "United States"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 119,
+        "name": "AirNow"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 769,
+          "name": "bc \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 11,
+            "name": "bc",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "BC"
+          }
+        },
+        {
+          "id": 25296,
+          "name": "co ppm",
+          "parameter": {
+            "id": 8,
+            "name": "co",
+            "units": "ppm",
+            "displayName": "CO"
+          }
+        },
+        {
+          "id": 770,
+          "name": "no2 ppm",
+          "parameter": {
+            "id": 7,
+            "name": "no2",
+            "units": "ppm",
+            "displayName": "NO\u2082"
+          }
+        },
+        {
+          "id": 682,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 41.829495,
+        "longitude": -71.417457
+      },
+      "licenses": [
+        {
+          "id": 33,
+          "name": "US Public Domain",
+          "attribution": {
+            "name": "Unknown Governmental Organization",
+            "url": null
+          },
+          "dateFrom": "2016-01-30",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        -71.417457,
+        41.829495,
+        -71.417457,
+        41.829495
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-03-10T08:00:00Z",
+        "local": "2016-03-10T03:00:00-05:00"
+      },
+      "datetimeLast": {
+        "utc": "2023-02-02T01:00:00Z",
+        "local": "2023-02-01T20:00:00-05:00"
+      }
+    }
+  ]
+}

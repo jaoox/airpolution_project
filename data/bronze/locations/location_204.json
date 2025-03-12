@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 204,
+      "name": "Manvel Croix Park C84",
+      "locality": null,
+      "timezone": "America/Chicago",
+      "country": {
+        "id": 155,
+        "code": "US",
+        "name": "United States"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 280,
+        "name": "Texas"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 346,
+          "name": "no2 ppm",
+          "parameter": {
+            "id": 7,
+            "name": "no2",
+            "units": "ppm",
+            "displayName": "NO\u2082"
+          }
+        },
+        {
+          "id": 345,
+          "name": "o3 ppm",
+          "parameter": {
+            "id": 10,
+            "name": "o3",
+            "units": "ppm",
+            "displayName": "O\u2083"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 29.5204432,
+        "longitude": -95.3925089
+      },
+      "licenses": null,
+      "bounds": [
+        -95.3925089,
+        29.5204432,
+        -95.3925089,
+        29.5204432
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-01-30T01:00:00Z",
+        "local": "2016-01-29T19:00:00-06:00"
+      },
+      "datetimeLast": {
+        "utc": "2016-03-06T19:00:00Z",
+        "local": "2016-03-06T13:00:00-06:00"
+      }
+    }
+  ]
+}

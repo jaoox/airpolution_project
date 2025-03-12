@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 354,
+      "name": "Lalbagh, DN Park",
+      "locality": null,
+      "timezone": "Asia/Kolkata",
+      "country": {
+        "id": 9,
+        "code": "IN",
+        "name": "India"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 168,
+        "name": "CPCB"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 604,
+          "name": "co \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 4,
+            "name": "co",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "CO mass"
+          }
+        },
+        {
+          "id": 606,
+          "name": "no2 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 5,
+            "name": "no2",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "NO\u2082 mass"
+          }
+        },
+        {
+          "id": 605,
+          "name": "o3 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 3,
+            "name": "o3",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "O\u2083 mass"
+          }
+        },
+        {
+          "id": 14362,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 14363,
+          "name": "so2 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 6,
+            "name": "so2",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "SO\u2082 mass"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 26.84578611,
+        "longitude": 80.93874444
+      },
+      "licenses": null,
+      "bounds": [
+        80.93874444,
+        26.84578611,
+        80.93874444,
+        26.84578611
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-03-21T10:00:00Z",
+        "local": "2016-03-21T15:30:00+05:30"
+      },
+      "datetimeLast": {
+        "utc": "2018-02-22T04:00:00Z",
+        "local": "2018-02-22T09:30:00+05:30"
+      }
+    }
+  ]
+}

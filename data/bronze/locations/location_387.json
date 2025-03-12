@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 387,
+      "name": "Nicks Lake",
+      "locality": null,
+      "timezone": "America/New_York",
+      "country": {
+        "id": 155,
+        "code": "US",
+        "name": "United States"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 119,
+        "name": "AirNow"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 675,
+          "name": "o3 ppm",
+          "parameter": {
+            "id": 10,
+            "name": "o3",
+            "units": "ppm",
+            "displayName": "O\u2083"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 43.6856,
+        "longitude": -74.9864
+      },
+      "licenses": [
+        {
+          "id": 33,
+          "name": "US Public Domain",
+          "attribution": {
+            "name": "Unknown Governmental Organization",
+            "url": null
+          },
+          "dateFrom": "2016-01-30",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        -74.9864,
+        43.6856,
+        -74.9864,
+        43.6856
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-03-10T08:00:00Z",
+        "local": "2016-03-10T03:00:00-05:00"
+      },
+      "datetimeLast": {
+        "utc": "2020-01-03T15:00:00Z",
+        "local": "2020-01-03T10:00:00-05:00"
+      }
+    }
+  ]
+}

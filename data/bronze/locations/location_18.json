@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 18,
+      "name": "SPARTAN - Vietnam Acad. Sci.",
+      "locality": null,
+      "timezone": "Asia/Bangkok",
+      "country": {
+        "id": 56,
+        "code": "VN",
+        "name": "Vietnam"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 226,
+        "name": "Spartan"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 37,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 21.048,
+        "longitude": 105.8
+      },
+      "licenses": null,
+      "bounds": [
+        105.8,
+        21.048,
+        105.8,
+        21.048
+      ],
+      "distance": null,
+      "datetimeFirst": null,
+      "datetimeLast": null
+    }
+  ]
+}

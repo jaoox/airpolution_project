@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 32,
+      "name": "SPARTAN - Tsinghua University",
+      "locality": null,
+      "timezone": "Asia/Shanghai",
+      "country": {
+        "id": 10,
+        "code": "CN",
+        "name": "China"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 226,
+        "name": "Spartan"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 51,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 40.01,
+        "longitude": 116.333
+      },
+      "licenses": null,
+      "bounds": [
+        116.333,
+        40.01,
+        116.333,
+        40.01
+      ],
+      "distance": null,
+      "datetimeFirst": null,
+      "datetimeLast": null
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 545,
+      "name": "Cedar Creek",
+      "locality": null,
+      "timezone": "America/New_York",
+      "country": {
+        "id": 155,
+        "code": "US",
+        "name": "United States"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 119,
+        "name": "AirNow"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 952,
+          "name": "o3 ppm",
+          "parameter": {
+            "id": 10,
+            "name": "o3",
+            "units": "ppm",
+            "displayName": "O\u2083"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 38.8795,
+        "longitude": -80.8477
+      },
+      "licenses": [
+        {
+          "id": 33,
+          "name": "US Public Domain",
+          "attribution": {
+            "name": "Unknown Governmental Organization",
+            "url": null
+          },
+          "dateFrom": "2016-01-30",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        -80.8477,
+        38.8795,
+        -80.8477,
+        38.8795
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-06-09T20:00:00Z",
+        "local": "2016-06-09T16:00:00-04:00"
+      },
+      "datetimeLast": {
+        "utc": "2022-05-11T01:00:00Z",
+        "local": "2022-05-10T21:00:00-04:00"
+      }
+    }
+  ]
+}

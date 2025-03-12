@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 176,
+      "name": "Freeport South Avenue I C1012",
+      "locality": null,
+      "timezone": "America/Chicago",
+      "country": {
+        "id": 155,
+        "code": "US",
+        "name": "United States"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 280,
+        "name": "Texas"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 292,
+          "name": "so2 ppm",
+          "parameter": {
+            "id": 9,
+            "name": "so2",
+            "units": "ppm",
+            "displayName": "SO\u2082"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 28.96443,
+        "longitude": -95.35483
+      },
+      "licenses": null,
+      "bounds": [
+        -95.35483,
+        28.96443,
+        -95.35483,
+        28.96443
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-01-30T01:00:00Z",
+        "local": "2016-01-29T19:00:00-06:00"
+      },
+      "datetimeLast": {
+        "utc": "2016-03-06T18:00:00Z",
+        "local": "2016-03-06T12:00:00-06:00"
+      }
+    }
+  ]
+}

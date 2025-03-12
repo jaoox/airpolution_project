@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 376,
+      "name": "Estaci\ufffdn Nativitas",
+      "locality": "GUANAJUATO",
+      "timezone": "America/Mexico_City",
+      "country": {
+        "id": 157,
+        "code": "MX",
+        "name": "Mexico"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 119,
+        "name": "AirNow"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 656,
+          "name": "co ppm",
+          "parameter": {
+            "id": 8,
+            "name": "co",
+            "units": "ppm",
+            "displayName": "CO"
+          }
+        },
+        {
+          "id": 3755,
+          "name": "o3 ppm",
+          "parameter": {
+            "id": 10,
+            "name": "o3",
+            "units": "ppm",
+            "displayName": "O\u2083"
+          }
+        },
+        {
+          "id": 3753,
+          "name": "pm10 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM10"
+          }
+        },
+        {
+          "id": 3754,
+          "name": "so2 ppm",
+          "parameter": {
+            "id": 9,
+            "name": "so2",
+            "units": "ppm",
+            "displayName": "SO\u2082"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 20.565228,
+        "longitude": -101.18824
+      },
+      "licenses": [
+        {
+          "id": 33,
+          "name": "US Public Domain",
+          "attribution": {
+            "name": "Unknown Governmental Organization",
+            "url": null
+          },
+          "dateFrom": "2016-01-30",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        -101.18824,
+        20.565228,
+        -101.18824,
+        20.565228
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-03-06T20:00:00Z",
+        "local": "2016-03-06T14:00:00-06:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-03-11T14:00:00Z",
+        "local": "2025-03-11T08:00:00-06:00"
+      }
+    }
+  ]
+}

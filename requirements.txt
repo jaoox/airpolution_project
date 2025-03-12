@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+pandas
+pyspark
+geopandas
+rasterio
+airflow
+apache-airflow-providers-amazon
+pyspark

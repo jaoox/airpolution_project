@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 551,
+      "name": "Kalispell Flathead E",
+      "locality": null,
+      "timezone": "America/Denver",
+      "country": {
+        "id": 155,
+        "code": "US",
+        "name": "United States"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 119,
+        "name": "AirNow"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 960,
+          "name": "pm10 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM10"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 48.202499,
+        "longitude": -114.305557
+      },
+      "licenses": [
+        {
+          "id": 33,
+          "name": "US Public Domain",
+          "attribution": {
+            "name": "Unknown Governmental Organization",
+            "url": null
+          },
+          "dateFrom": "2016-01-30",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        -114.305557,
+        48.202499,
+        -114.305557,
+        48.202499
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-03-10T08:00:00Z",
+        "local": "2016-03-10T01:00:00-07:00"
+      },
+      "datetimeLast": {
+        "utc": "2023-05-08T07:00:00Z",
+        "local": "2023-05-08T01:00:00-06:00"
+      }
+    }
+  ]
+}

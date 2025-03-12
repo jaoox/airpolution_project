@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 191,
+      "name": "Seabrook Friendship",
+      "locality": "Houston-Sugar Land-Baytown",
+      "timezone": "America/Chicago",
+      "country": {
+        "id": 155,
+        "code": "US",
+        "name": "United States"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 119,
+        "name": "AirNow"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 5077791,
+          "name": "o3 ppm",
+          "parameter": {
+            "id": 10,
+            "name": "o3",
+            "units": "ppm",
+            "displayName": "O\u2083"
+          }
+        },
+        {
+          "id": 5077638,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 29.5831,
+        "longitude": -95.0156
+      },
+      "licenses": [
+        {
+          "id": 33,
+          "name": "US Public Domain",
+          "attribution": {
+            "name": "Unknown Governmental Organization",
+            "url": null
+          },
+          "dateFrom": "2016-01-30",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        -95.0156,
+        29.5831,
+        -95.0156,
+        29.5831
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2022-10-04T18:00:00Z",
+        "local": "2022-10-04T13:00:00-05:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-03-11T14:00:00Z",
+        "local": "2025-03-11T09:00:00-05:00"
+      }
+    }
+  ]
+}

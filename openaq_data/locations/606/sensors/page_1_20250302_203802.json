@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 1060,
+      "name": "so2 ppm",
+      "parameter": {
+        "id": 9,
+        "name": "so2",
+        "units": "ppm",
+        "displayName": "SO\u2082"
+      },
+      "datetimeFirst": {
+        "utc": "2016-03-10T08:00:00Z",
+        "local": "2016-03-10T01:00:00-07:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-03-02T19:00:00Z",
+        "local": "2025-03-02T12:00:00-07:00"
+      },
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 52493,
+        "observedInterval": "52493:00:00",
+        "percentComplete": 5249300.0,
+        "percentCoverage": 5249300.0,
+        "datetimeFrom": {
+          "utc": "2016-03-10T08:00:00Z",
+          "local": "2016-03-10T01:00:00-07:00"
+        },
+        "datetimeTo": {
+          "utc": "2025-03-02T19:00:00Z",
+          "local": "2025-03-02T12:00:00-07:00"
+        }
+      },
+      "latest": {
+        "datetime": {
+          "utc": "2025-03-02T19:00:00Z",
+          "local": "2025-03-02T12:00:00-07:00"
+        },
+        "value": 0.0001,
+        "coordinates": {
+          "latitude": 33.397433,
+          "longitude": -110.87445
+        }
+      },
+      "summary": {
+        "min": -0.005,
+        "q02": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "q98": null,
+        "max": 0.298,
+        "avg": 0.0014005878277665216,
+        "sd": null
+      }
+    }
+  ]
+}

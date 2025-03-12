@@ -1,0 +1,403 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 7
+  },
+  "results": [
+    {
+      "id": 1076,
+      "name": "co ppm",
+      "parameter": {
+        "id": 8,
+        "name": "co",
+        "units": "ppm",
+        "displayName": "CO"
+      },
+      "datetimeFirst": {
+        "utc": "2016-03-10T08:00:00Z",
+        "local": "2016-03-10T01:00:00-07:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-03-02T18:00:00Z",
+        "local": "2025-03-02T11:00:00-07:00"
+      },
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 55506,
+        "observedInterval": "55506:00:00",
+        "percentComplete": 5550600.0,
+        "percentCoverage": 5550600.0,
+        "datetimeFrom": {
+          "utc": "2016-03-10T08:00:00Z",
+          "local": "2016-03-10T01:00:00-07:00"
+        },
+        "datetimeTo": {
+          "utc": "2025-03-02T18:00:00Z",
+          "local": "2025-03-02T11:00:00-07:00"
+        }
+      },
+      "latest": {
+        "datetime": {
+          "utc": "2025-03-02T18:00:00Z",
+          "local": "2025-03-02T11:00:00-07:00"
+        },
+        "value": 0.3,
+        "coordinates": {
+          "latitude": 33.503601,
+          "longitude": -112.09500100000001
+        }
+      },
+      "summary": {
+        "min": 0.0,
+        "q02": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "q98": null,
+        "max": 3.81,
+        "avg": 0.3410881982194791,
+        "sd": null
+      }
+    },
+    {
+      "id": 1065,
+      "name": "pm25 \u00b5g/m\u00b3",
+      "parameter": {
+        "id": 2,
+        "name": "pm25",
+        "units": "\u00b5g/m\u00b3",
+        "displayName": "PM2.5"
+      },
+      "datetimeFirst": {
+        "utc": "2016-03-10T08:00:00Z",
+        "local": "2016-03-10T01:00:00-07:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-03-02T18:00:00Z",
+        "local": "2025-03-02T11:00:00-07:00"
+      },
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 55165,
+        "observedInterval": "55165:00:00",
+        "percentComplete": 5516500.0,
+        "percentCoverage": 5516500.0,
+        "datetimeFrom": {
+          "utc": "2016-03-10T08:00:00Z",
+          "local": "2016-03-10T01:00:00-07:00"
+        },
+        "datetimeTo": {
+          "utc": "2025-03-02T18:00:00Z",
+          "local": "2025-03-02T11:00:00-07:00"
+        }
+      },
+      "latest": {
+        "datetime": {
+          "utc": "2025-03-02T18:00:00Z",
+          "local": "2025-03-02T11:00:00-07:00"
+        },
+        "value": 5.0,
+        "coordinates": {
+          "latitude": 33.503601,
+          "longitude": -112.09500100000001
+        }
+      },
+      "summary": {
+        "min": -4.0,
+        "q02": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "q98": null,
+        "max": 334.0,
+        "avg": 8.078819292450953,
+        "sd": null
+      }
+    },
+    {
+      "id": 1081,
+      "name": "o3 ppm",
+      "parameter": {
+        "id": 10,
+        "name": "o3",
+        "units": "ppm",
+        "displayName": "O\u2083"
+      },
+      "datetimeFirst": {
+        "utc": "2016-03-10T08:00:00Z",
+        "local": "2016-03-10T01:00:00-07:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-03-02T18:00:00Z",
+        "local": "2025-03-02T11:00:00-07:00"
+      },
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 49200,
+        "observedInterval": "49200:00:00",
+        "percentComplete": 4920000.0,
+        "percentCoverage": 4920000.0,
+        "datetimeFrom": {
+          "utc": "2016-03-10T08:00:00Z",
+          "local": "2016-03-10T01:00:00-07:00"
+        },
+        "datetimeTo": {
+          "utc": "2025-03-02T18:00:00Z",
+          "local": "2025-03-02T11:00:00-07:00"
+        }
+      },
+      "latest": {
+        "datetime": {
+          "utc": "2025-03-02T18:00:00Z",
+          "local": "2025-03-02T11:00:00-07:00"
+        },
+        "value": 0.057,
+        "coordinates": {
+          "latitude": 33.503601,
+          "longitude": -112.09500100000001
+        }
+      },
+      "summary": {
+        "min": -0.002,
+        "q02": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "q98": null,
+        "max": 0.122,
+        "avg": 0.030319868368743244,
+        "sd": null
+      }
+    },
+    {
+      "id": 1064,
+      "name": "pm10 \u00b5g/m\u00b3",
+      "parameter": {
+        "id": 1,
+        "name": "pm10",
+        "units": "\u00b5g/m\u00b3",
+        "displayName": "PM10"
+      },
+      "datetimeFirst": {
+        "utc": "2016-03-10T08:00:00Z",
+        "local": "2016-03-10T01:00:00-07:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-03-02T18:00:00Z",
+        "local": "2025-03-02T11:00:00-07:00"
+      },
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 55367,
+        "observedInterval": "55367:00:00",
+        "percentComplete": 5536700.0,
+        "percentCoverage": 5536700.0,
+        "datetimeFrom": {
+          "utc": "2016-03-10T08:00:00Z",
+          "local": "2016-03-10T01:00:00-07:00"
+        },
+        "datetimeTo": {
+          "utc": "2025-03-02T18:00:00Z",
+          "local": "2025-03-02T11:00:00-07:00"
+        }
+      },
+      "latest": {
+        "datetime": {
+          "utc": "2025-03-02T18:00:00Z",
+          "local": "2025-03-02T11:00:00-07:00"
+        },
+        "value": 33.0,
+        "coordinates": {
+          "latitude": 33.503601,
+          "longitude": -112.09500100000001
+        }
+      },
+      "summary": {
+        "min": -4.0,
+        "q02": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "q98": null,
+        "max": 2606.0,
+        "avg": 28.53912009512485,
+        "sd": null
+      }
+    },
+    {
+      "id": 1059,
+      "name": "so2 ppm",
+      "parameter": {
+        "id": 9,
+        "name": "so2",
+        "units": "ppm",
+        "displayName": "SO\u2082"
+      },
+      "datetimeFirst": {
+        "utc": "2016-03-10T08:00:00Z",
+        "local": "2016-03-10T01:00:00-07:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-03-02T18:00:00Z",
+        "local": "2025-03-02T11:00:00-07:00"
+      },
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 55294,
+        "observedInterval": "55294:00:00",
+        "percentComplete": 5529400.0,
+        "percentCoverage": 5529400.0,
+        "datetimeFrom": {
+          "utc": "2016-03-10T08:00:00Z",
+          "local": "2016-03-10T01:00:00-07:00"
+        },
+        "datetimeTo": {
+          "utc": "2025-03-02T18:00:00Z",
+          "local": "2025-03-02T11:00:00-07:00"
+        }
+      },
+      "latest": {
+        "datetime": {
+          "utc": "2025-03-02T18:00:00Z",
+          "local": "2025-03-02T11:00:00-07:00"
+        },
+        "value": 0.0003,
+        "coordinates": {
+          "latitude": 33.503601,
+          "longitude": -112.09500100000001
+        }
+      },
+      "summary": {
+        "min": -0.0047,
+        "q02": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "q98": null,
+        "max": 0.02,
+        "avg": 0.0007177043533347254,
+        "sd": null
+      }
+    },
+    {
+      "id": 1078,
+      "name": "no2 ppm",
+      "parameter": {
+        "id": 7,
+        "name": "no2",
+        "units": "ppm",
+        "displayName": "NO\u2082"
+      },
+      "datetimeFirst": {
+        "utc": "2016-03-10T08:00:00Z",
+        "local": "2016-03-10T01:00:00-07:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-03-02T18:00:00Z",
+        "local": "2025-03-02T11:00:00-07:00"
+      },
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 55054,
+        "observedInterval": "55054:00:00",
+        "percentComplete": 5505400.0,
+        "percentCoverage": 5505400.0,
+        "datetimeFrom": {
+          "utc": "2016-03-10T08:00:00Z",
+          "local": "2016-03-10T01:00:00-07:00"
+        },
+        "datetimeTo": {
+          "utc": "2025-03-02T18:00:00Z",
+          "local": "2025-03-02T11:00:00-07:00"
+        }
+      },
+      "latest": {
+        "datetime": {
+          "utc": "2025-03-02T18:00:00Z",
+          "local": "2025-03-02T11:00:00-07:00"
+        },
+        "value": 0.0033,
+        "coordinates": {
+          "latitude": 33.503601,
+          "longitude": -112.09500100000001
+        }
+      },
+      "summary": {
+        "min": 0.0,
+        "q02": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "q98": null,
+        "max": 0.06,
+        "avg": 0.012823274267644439,
+        "sd": null
+      }
+    },
+    {
+      "id": 4272213,
+      "name": "no ppm",
+      "parameter": {
+        "id": 35,
+        "name": "no",
+        "units": "ppm",
+        "displayName": "NO"
+      },
+      "datetimeFirst": {
+        "utc": "2023-03-29T18:00:00Z",
+        "local": "2023-03-29T11:00:00-07:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-03-02T18:00:00Z",
+        "local": "2025-03-02T11:00:00-07:00"
+      },
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 16152,
+        "observedInterval": "16152:00:00",
+        "percentComplete": 1615200.0,
+        "percentCoverage": 1615200.0,
+        "datetimeFrom": {
+          "utc": "2023-03-29T18:00:00Z",
+          "local": "2023-03-29T11:00:00-07:00"
+        },
+        "datetimeTo": {
+          "utc": "2025-03-02T18:00:00Z",
+          "local": "2025-03-02T11:00:00-07:00"
+        }
+      },
+      "latest": {
+        "datetime": {
+          "utc": "2025-03-02T18:00:00Z",
+          "local": "2025-03-02T11:00:00-07:00"
+        },
+        "value": 0.0011,
+        "coordinates": {
+          "latitude": 33.503601,
+          "longitude": -112.09500100000001
+        }
+      },
+      "summary": {
+        "min": -0.0064,
+        "q02": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "q98": null,
+        "max": 0.1722,
+        "avg": 0.003554271400949089,
+        "sd": null
+      }
+    }
+  ]
+}

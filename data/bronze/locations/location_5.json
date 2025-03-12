@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 5,
+      "name": "JTA - Jamestown",
+      "locality": null,
+      "timezone": "Africa/Accra",
+      "country": {
+        "id": 152,
+        "code": "GH",
+        "name": "Ghana"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 209,
+        "name": "Dr. Raphael E. Arku and Colleagues"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 10,
+          "name": "pm10 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM10"
+          }
+        },
+        {
+          "id": 9,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 5.5401139,
+        "longitude": -0.2103972
+      },
+      "licenses": null,
+      "bounds": [
+        -0.2103972,
+        5.5401139,
+        -0.2103972,
+        5.5401139
+      ],
+      "distance": null,
+      "datetimeFirst": null,
+      "datetimeLast": null
+    }
+  ]
+}

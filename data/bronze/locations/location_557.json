@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 557,
+      "name": "E Providence",
+      "locality": "Providence-New Bedford-Fall River",
+      "timezone": "America/New_York",
+      "country": {
+        "id": 155,
+        "code": "US",
+        "name": "United States"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 119,
+        "name": "AirNow"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 976,
+          "name": "bc \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 11,
+            "name": "bc",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "BC"
+          }
+        },
+        {
+          "id": 983,
+          "name": "co ppm",
+          "parameter": {
+            "id": 8,
+            "name": "co",
+            "units": "ppm",
+            "displayName": "CO"
+          }
+        },
+        {
+          "id": 4272241,
+          "name": "no ppm",
+          "parameter": {
+            "id": 35,
+            "name": "no",
+            "units": "ppm",
+            "displayName": "NO"
+          }
+        },
+        {
+          "id": 982,
+          "name": "no2 ppm",
+          "parameter": {
+            "id": 7,
+            "name": "no2",
+            "units": "ppm",
+            "displayName": "NO\u2082"
+          }
+        },
+        {
+          "id": 4272057,
+          "name": "nox ppm",
+          "parameter": {
+            "id": 19840,
+            "name": "nox",
+            "units": "ppm",
+            "displayName": "NOx"
+          }
+        },
+        {
+          "id": 981,
+          "name": "o3 ppm",
+          "parameter": {
+            "id": 10,
+            "name": "o3",
+            "units": "ppm",
+            "displayName": "O\u2083"
+          }
+        },
+        {
+          "id": 974,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 980,
+          "name": "so2 ppm",
+          "parameter": {
+            "id": 9,
+            "name": "so2",
+            "units": "ppm",
+            "displayName": "SO\u2082"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 41.840302,
+        "longitude": -71.361702
+      },
+      "licenses": [
+        {
+          "id": 33,
+          "name": "US Public Domain",
+          "attribution": {
+            "name": "Unknown Governmental Organization",
+            "url": null
+          },
+          "dateFrom": "2016-01-30",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        -71.361702,
+        41.840302,
+        -71.361702,
+        41.840302
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-03-10T08:00:00Z",
+        "local": "2016-03-10T03:00:00-05:00"
+      },
+      "datetimeLast": {
+        "utc": "2024-04-18T12:00:00Z",
+        "local": "2024-04-18T08:00:00-04:00"
+      }
+    }
+  ]
+}

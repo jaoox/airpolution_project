@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 355,
+      "name": "Prospect",
+      "locality": "Sydney North-west",
+      "timezone": "Australia/Sydney",
+      "country": {
+        "id": 177,
+        "code": "AU",
+        "name": "Australia"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 153,
+        "name": "Australia - New South Wales"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 5044,
+          "name": "co ppm",
+          "parameter": {
+            "id": 8,
+            "name": "co",
+            "units": "ppm",
+            "displayName": "CO"
+          }
+        },
+        {
+          "id": 4869,
+          "name": "no2 ppm",
+          "parameter": {
+            "id": 7,
+            "name": "no2",
+            "units": "ppm",
+            "displayName": "NO\u2082"
+          }
+        },
+        {
+          "id": 608,
+          "name": "o3 ppm",
+          "parameter": {
+            "id": 10,
+            "name": "o3",
+            "units": "ppm",
+            "displayName": "O\u2083"
+          }
+        },
+        {
+          "id": 4799,
+          "name": "pm10 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM10"
+          }
+        },
+        {
+          "id": 21600,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 4743,
+          "name": "so2 ppm",
+          "parameter": {
+            "id": 9,
+            "name": "so2",
+            "units": "ppm",
+            "displayName": "SO\u2082"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": -33.7947222,
+        "longitude": 150.9125
+      },
+      "licenses": null,
+      "bounds": [
+        150.9125,
+        -33.7947222,
+        150.9125,
+        -33.7947222
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-03-24T02:00:00Z",
+        "local": "2016-03-24T13:00:00+11:00"
+      },
+      "datetimeLast": {
+        "utc": "2022-11-22T23:00:00Z",
+        "local": "2022-11-23T10:00:00+11:00"
+      }
+    }
+  ]
+}

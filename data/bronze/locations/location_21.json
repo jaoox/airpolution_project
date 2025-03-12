@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 21,
+      "name": "Beijing US Embassy",
+      "locality": "Beijing",
+      "timezone": "Asia/Shanghai",
+      "country": {
+        "id": 10,
+        "code": "CN",
+        "name": "China"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 231,
+        "name": "Beijing US Embassy"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 40,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 39.95,
+        "longitude": 116.47
+      },
+      "licenses": null,
+      "bounds": [
+        116.47,
+        39.95,
+        116.47,
+        39.95
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-01-31T05:00:00Z",
+        "local": "2016-01-31T13:00:00+08:00"
+      },
+      "datetimeLast": {
+        "utc": "2023-08-15T15:00:00Z",
+        "local": "2023-08-15T23:00:00+08:00"
+      }
+    }
+  ]
+}

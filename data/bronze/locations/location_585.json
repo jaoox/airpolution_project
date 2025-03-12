@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 585,
+      "name": "Liberty Lake-E Valey",
+      "locality": null,
+      "timezone": "America/Los_Angeles",
+      "country": {
+        "id": 155,
+        "code": "US",
+        "name": "United States"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 119,
+        "name": "AirNow"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 1034,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 47.660568,
+        "longitude": -117.084503
+      },
+      "licenses": [
+        {
+          "id": 33,
+          "name": "US Public Domain",
+          "attribution": {
+            "name": "Unknown Governmental Organization",
+            "url": null
+          },
+          "dateFrom": "2016-01-30",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        -117.084503,
+        47.660568,
+        -117.084503,
+        47.660568
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-03-06T20:00:00Z",
+        "local": "2016-03-06T12:00:00-08:00"
+      },
+      "datetimeLast": {
+        "utc": "2016-06-13T23:00:00Z",
+        "local": "2016-06-13T16:00:00-07:00"
+      }
+    }
+  ]
+}

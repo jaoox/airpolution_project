@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 210,
+      "name": "Liceo Polivalente",
+      "locality": "Tom\u00e9",
+      "timezone": "America/Santiago",
+      "country": {
+        "id": 3,
+        "code": "CL",
+        "name": "Chile"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 164,
+        "name": "Chile - SINCA"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 20354,
+          "name": "no2 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 5,
+            "name": "no2",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "NO\u2082 mass"
+          }
+        },
+        {
+          "id": 353,
+          "name": "o3 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 3,
+            "name": "o3",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "O\u2083 mass"
+          }
+        },
+        {
+          "id": 720,
+          "name": "pm10 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 1,
+            "name": "pm10",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM10"
+          }
+        },
+        {
+          "id": 726,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        },
+        {
+          "id": 22463,
+          "name": "so2 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 6,
+            "name": "so2",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "SO\u2082 mass"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": -36.601713211434,
+        "longitude": -72.958522830688
+      },
+      "licenses": null,
+      "bounds": [
+        -72.958522830688,
+        -36.601713211434,
+        -72.958522830688,
+        -36.601713211434
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-02-01T17:00:00Z",
+        "local": "2016-02-01T14:00:00-03:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-03-11T11:00:00Z",
+        "local": "2025-03-11T08:00:00-03:00"
+      }
+    }
+  ]
+}

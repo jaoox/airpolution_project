@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 1000,
+    "found": 11
+  },
+  "results": [
+    {
+      "value": 0.0,
+      "flagInfo": {
+        "hasFlags": false
+      },
+      "parameter": {
+        "id": 6,
+        "name": "so2",
+        "units": "\u00b5g/m\u00b3",
+        "displayName": null
+      },
+      "period": {
+        "label": "raw",
+        "interval": "01:00:00",
+        "datetimeFrom": {
+          "utc": "2016-08-19T13:00:00Z",
+          "local": "2016-08-19T10:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2016-08-19T14:00:00Z",
+          "local": "2016-08-19T11:00:00-03:00"
+        }
+      },
+      "coordinates": null,
+      "summary": null,
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 1,
+        "observedInterval": "01:00:00",
+        "percentComplete": 100.0,
+        "percentCoverage": 100.0,
+        "datetimeFrom": {
+          "utc": "2016-08-19T13:00:00Z",
+          "local": "2016-08-19T10:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2016-08-19T14:00:00Z",
+          "local": "2016-08-19T11:00:00-03:00"
+        }
+      }
+    },
+    {
+      "value": 0.0,
+      "flagInfo": {
+        "hasFlags": false
+      },
+      "parameter": {
+        "id": 6,
+        "name": "so2",
+        "units": "\u00b5g/m\u00b3",
+        "displayName": null
+      },
+      "period": {
+        "label": "raw",
+        "interval": "01:00:00",
+        "datetimeFrom": {
+          "utc": "2016-11-14T13:00:00Z",
+          "local": "2016-11-14T10:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2016-11-14T14:00:00Z",
+          "local": "2016-11-14T11:00:00-03:00"
+        }
+      },
+      "coordinates": null,
+      "summary": null,
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 1,
+        "observedInterval": "01:00:00",
+        "percentComplete": 100.0,
+        "percentCoverage": 100.0,
+        "datetimeFrom": {
+          "utc": "2016-11-14T13:00:00Z",
+          "local": "2016-11-14T10:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2016-11-14T14:00:00Z",
+          "local": "2016-11-14T11:00:00-03:00"
+        }
+      }
+    },
+    {
+      "value": 0.0,
+      "flagInfo": {
+        "hasFlags": false
+      },
+      "parameter": {
+        "id": 6,
+        "name": "so2",
+        "units": "\u00b5g/m\u00b3",
+        "displayName": null
+      },
+      "period": {
+        "label": "raw",
+        "interval": "01:00:00",
+        "datetimeFrom": {
+          "utc": "2016-11-15T13:00:00Z",
+          "local": "2016-11-15T10:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2016-11-15T14:00:00Z",
+          "local": "2016-11-15T11:00:00-03:00"
+        }
+      },
+      "coordinates": null,
+      "summary": null,
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 1,
+        "observedInterval": "01:00:00",
+        "percentComplete": 100.0,
+        "percentCoverage": 100.0,
+        "datetimeFrom": {
+          "utc": "2016-11-15T13:00:00Z",
+          "local": "2016-11-15T10:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2016-11-15T14:00:00Z",
+          "local": "2016-11-15T11:00:00-03:00"
+        }
+      }
+    },
+    {
+      "value": 0.0,
+      "flagInfo": {
+        "hasFlags": false
+      },
+      "parameter": {
+        "id": 6,
+        "name": "so2",
+        "units": "\u00b5g/m\u00b3",
+        "displayName": null
+      },
+      "period": {
+        "label": "raw",
+        "interval": "01:00:00",
+        "datetimeFrom": {
+          "utc": "2016-11-18T12:00:00Z",
+          "local": "2016-11-18T09:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2016-11-18T13:00:00Z",
+          "local": "2016-11-18T10:00:00-03:00"
+        }
+      },
+      "coordinates": null,
+      "summary": null,
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 1,
+        "observedInterval": "01:00:00",
+        "percentComplete": 100.0,
+        "percentCoverage": 100.0,
+        "datetimeFrom": {
+          "utc": "2016-11-18T12:00:00Z",
+          "local": "2016-11-18T09:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2016-11-18T13:00:00Z",
+          "local": "2016-11-18T10:00:00-03:00"
+        }
+      }
+    },
+    {
+      "value": 0.0,
+      "flagInfo": {
+        "hasFlags": false
+      },
+      "parameter": {
+        "id": 6,
+        "name": "so2",
+        "units": "\u00b5g/m\u00b3",
+        "displayName": null
+      },
+      "period": {
+        "label": "raw",
+        "interval": "01:00:00",
+        "datetimeFrom": {
+          "utc": "2016-11-23T18:00:00Z",
+          "local": "2016-11-23T15:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2016-11-23T19:00:00Z",
+          "local": "2016-11-23T16:00:00-03:00"
+        }
+      },
+      "coordinates": null,
+      "summary": null,
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 1,
+        "observedInterval": "01:00:00",
+        "percentComplete": 100.0,
+        "percentCoverage": 100.0,
+        "datetimeFrom": {
+          "utc": "2016-11-23T18:00:00Z",
+          "local": "2016-11-23T15:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2016-11-23T19:00:00Z",
+          "local": "2016-11-23T16:00:00-03:00"
+        }
+      }
+    },
+    {
+      "value": 0.0,
+      "flagInfo": {
+        "hasFlags": false
+      },
+      "parameter": {
+        "id": 6,
+        "name": "so2",
+        "units": "\u00b5g/m\u00b3",
+        "displayName": null
+      },
+      "period": {
+        "label": "raw",
+        "interval": "01:00:00",
+        "datetimeFrom": {
+          "utc": "2016-12-16T16:00:00Z",
+          "local": "2016-12-16T13:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2016-12-16T17:00:00Z",
+          "local": "2016-12-16T14:00:00-03:00"
+        }
+      },
+      "coordinates": null,
+      "summary": null,
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 1,
+        "observedInterval": "01:00:00",
+        "percentComplete": 100.0,
+        "percentCoverage": 100.0,
+        "datetimeFrom": {
+          "utc": "2016-12-16T16:00:00Z",
+          "local": "2016-12-16T13:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2016-12-16T17:00:00Z",
+          "local": "2016-12-16T14:00:00-03:00"
+        }
+      }
+    },
+    {
+      "value": 0.0,
+      "flagInfo": {
+        "hasFlags": false
+      },
+      "parameter": {
+        "id": 6,
+        "name": "so2",
+        "units": "\u00b5g/m\u00b3",
+        "displayName": null
+      },
+      "period": {
+        "label": "raw",
+        "interval": "01:00:00",
+        "datetimeFrom": {
+          "utc": "2016-12-19T17:00:00Z",
+          "local": "2016-12-19T14:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2016-12-19T18:00:00Z",
+          "local": "2016-12-19T15:00:00-03:00"
+        }
+      },
+      "coordinates": null,
+      "summary": null,
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 1,
+        "observedInterval": "01:00:00",
+        "percentComplete": 100.0,
+        "percentCoverage": 100.0,
+        "datetimeFrom": {
+          "utc": "2016-12-19T17:00:00Z",
+          "local": "2016-12-19T14:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2016-12-19T18:00:00Z",
+          "local": "2016-12-19T15:00:00-03:00"
+        }
+      }
+    },
+    {
+      "value": 0.0,
+      "flagInfo": {
+        "hasFlags": false
+      },
+      "parameter": {
+        "id": 6,
+        "name": "so2",
+        "units": "\u00b5g/m\u00b3",
+        "displayName": null
+      },
+      "period": {
+        "label": "raw",
+        "interval": "01:00:00",
+        "datetimeFrom": {
+          "utc": "2017-01-04T18:00:00Z",
+          "local": "2017-01-04T15:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2017-01-04T19:00:00Z",
+          "local": "2017-01-04T16:00:00-03:00"
+        }
+      },
+      "coordinates": null,
+      "summary": null,
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 1,
+        "observedInterval": "01:00:00",
+        "percentComplete": 100.0,
+        "percentCoverage": 100.0,
+        "datetimeFrom": {
+          "utc": "2017-01-04T18:00:00Z",
+          "local": "2017-01-04T15:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2017-01-04T19:00:00Z",
+          "local": "2017-01-04T16:00:00-03:00"
+        }
+      }
+    },
+    {
+      "value": 0.0,
+      "flagInfo": {
+        "hasFlags": false
+      },
+      "parameter": {
+        "id": 6,
+        "name": "so2",
+        "units": "\u00b5g/m\u00b3",
+        "displayName": null
+      },
+      "period": {
+        "label": "raw",
+        "interval": "01:00:00",
+        "datetimeFrom": {
+          "utc": "2017-01-05T14:00:00Z",
+          "local": "2017-01-05T11:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2017-01-05T15:00:00Z",
+          "local": "2017-01-05T12:00:00-03:00"
+        }
+      },
+      "coordinates": null,
+      "summary": null,
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 1,
+        "observedInterval": "01:00:00",
+        "percentComplete": 100.0,
+        "percentCoverage": 100.0,
+        "datetimeFrom": {
+          "utc": "2017-01-05T14:00:00Z",
+          "local": "2017-01-05T11:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2017-01-05T15:00:00Z",
+          "local": "2017-01-05T12:00:00-03:00"
+        }
+      }
+    },
+    {
+      "value": 0.0,
+      "flagInfo": {
+        "hasFlags": false
+      },
+      "parameter": {
+        "id": 6,
+        "name": "so2",
+        "units": "\u00b5g/m\u00b3",
+        "displayName": null
+      },
+      "period": {
+        "label": "raw",
+        "interval": "01:00:00",
+        "datetimeFrom": {
+          "utc": "2017-01-09T12:00:00Z",
+          "local": "2017-01-09T09:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2017-01-09T13:00:00Z",
+          "local": "2017-01-09T10:00:00-03:00"
+        }
+      },
+      "coordinates": null,
+      "summary": null,
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 1,
+        "observedInterval": "01:00:00",
+        "percentComplete": 100.0,
+        "percentCoverage": 100.0,
+        "datetimeFrom": {
+          "utc": "2017-01-09T12:00:00Z",
+          "local": "2017-01-09T09:00:00-03:00"
+        },
+        "datetimeTo": {
+          "utc": "2017-01-09T13:00:00Z",
+          "local": "2017-01-09T10:00:00-03:00"
+        }
+      }
+    },
+    {
+      "value": 0.0,
+      "flagInfo": {
+        "hasFlags": false
+      },
+      "parameter": {
+        "id": 6,
+        "name": "so2",
+        "units": "\u00b5g/m\u00b3",
+        "displayName": null
+      },
+      "period": {
+        "label": "raw",
+        "interval": "01:00:00",
+        "datetimeFrom": {
+          "utc": "2017-06-28T15:00:00Z",
+          "local": "2017-06-28T11:00:00-04:00"
+        },
+        "datetimeTo": {
+          "utc": "2017-06-28T16:00:00Z",
+          "local": "2017-06-28T12:00:00-04:00"
+        }
+      },
+      "coordinates": null,
+      "summary": null,
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 1,
+        "observedInterval": "01:00:00",
+        "percentComplete": 100.0,
+        "percentCoverage": 100.0,
+        "datetimeFrom": {
+          "utc": "2017-06-28T15:00:00Z",
+          "local": "2017-06-28T11:00:00-04:00"
+        },
+        "datetimeTo": {
+          "utc": "2017-06-28T16:00:00Z",
+          "local": "2017-06-28T12:00:00-04:00"
+        }
+      }
+    }
+  ]
+}

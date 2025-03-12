@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 24,
+      "name": "SPARTAN - NUS",
+      "locality": null,
+      "timezone": "Asia/Singapore",
+      "country": {
+        "id": 231,
+        "code": "SG",
+        "name": "Singapore"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 226,
+        "name": "Spartan"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 43,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 1.298,
+        "longitude": 103.78
+      },
+      "licenses": null,
+      "bounds": [
+        103.78,
+        1.298,
+        103.78,
+        1.298
+      ],
+      "distance": null,
+      "datetimeFirst": null,
+      "datetimeLast": null
+    }
+  ]
+}

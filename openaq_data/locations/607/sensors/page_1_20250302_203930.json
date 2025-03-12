@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 1063,
+      "name": "pm10 \u00b5g/m\u00b3",
+      "parameter": {
+        "id": 1,
+        "name": "pm10",
+        "units": "\u00b5g/m\u00b3",
+        "displayName": "PM10"
+      },
+      "datetimeFirst": {
+        "utc": "2016-03-10T08:00:00Z",
+        "local": "2016-03-10T01:00:00-07:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-03-02T19:00:00Z",
+        "local": "2025-03-02T12:00:00-07:00"
+      },
+      "coverage": {
+        "expectedCount": 1,
+        "expectedInterval": "01:00:00",
+        "observedCount": 54113,
+        "observedInterval": "54113:00:00",
+        "percentComplete": 5411300.0,
+        "percentCoverage": 5411300.0,
+        "datetimeFrom": {
+          "utc": "2016-03-10T08:00:00Z",
+          "local": "2016-03-10T01:00:00-07:00"
+        },
+        "datetimeTo": {
+          "utc": "2025-03-02T19:00:00Z",
+          "local": "2025-03-02T12:00:00-07:00"
+        }
+      },
+      "latest": {
+        "datetime": {
+          "utc": "2025-03-02T19:00:00Z",
+          "local": "2025-03-02T12:00:00-07:00"
+        },
+        "value": 67.0,
+        "coordinates": {
+          "latitude": 32.414342,
+          "longitude": -111.154544
+        }
+      },
+      "summary": {
+        "min": -4.0,
+        "q02": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "q98": null,
+        "max": 4480.0,
+        "avg": 45.741946511160265,
+        "sd": null
+      }
+    }
+  ]
+}

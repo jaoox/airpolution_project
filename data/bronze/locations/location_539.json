@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 539,
+      "name": "Pinedale",
+      "locality": "SUBLETTE",
+      "timezone": "America/Denver",
+      "country": {
+        "id": 155,
+        "code": "US",
+        "name": "United States"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 119,
+        "name": "AirNow"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 4272070,
+          "name": "no ppm",
+          "parameter": {
+            "id": 35,
+            "name": "no",
+            "units": "ppm",
+            "displayName": "NO"
+          }
+        },
+        {
+          "id": 941,
+          "name": "o3 ppm",
+          "parameter": {
+            "id": 10,
+            "name": "o3",
+            "units": "ppm",
+            "displayName": "O\u2083"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 42.9288,
+        "longitude": -109.788
+      },
+      "licenses": [
+        {
+          "id": 33,
+          "name": "US Public Domain",
+          "attribution": {
+            "name": "Unknown Governmental Organization",
+            "url": null
+          },
+          "dateFrom": "2016-01-30",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        -109.788,
+        42.9288,
+        -109.788,
+        42.9288
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-06-09T20:00:00Z",
+        "local": "2016-06-09T14:00:00-06:00"
+      },
+      "datetimeLast": {
+        "utc": "2025-03-11T14:00:00Z",
+        "local": "2025-03-11T08:00:00-06:00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": 1
+  },
+  "results": [
+    {
+      "id": 374,
+      "name": "Porthill",
+      "locality": "BOUNDARY",
+      "timezone": "America/Los_Angeles",
+      "country": {
+        "id": 156,
+        "code": "CA",
+        "name": "Canada"
+      },
+      "owner": {
+        "id": 4,
+        "name": "Unknown Governmental Organization"
+      },
+      "provider": {
+        "id": 119,
+        "name": "AirNow"
+      },
+      "isMobile": false,
+      "isMonitor": true,
+      "instruments": [
+        {
+          "id": 2,
+          "name": "Government Monitor"
+        }
+      ],
+      "sensors": [
+        {
+          "id": 652,
+          "name": "pm25 \u00b5g/m\u00b3",
+          "parameter": {
+            "id": 2,
+            "name": "pm25",
+            "units": "\u00b5g/m\u00b3",
+            "displayName": "PM2.5"
+          }
+        }
+      ],
+      "coordinates": {
+        "latitude": 48.995911,
+        "longitude": -116.509953
+      },
+      "licenses": [
+        {
+          "id": 33,
+          "name": "US Public Domain",
+          "attribution": {
+            "name": "Unknown Governmental Organization",
+            "url": null
+          },
+          "dateFrom": "2016-01-30",
+          "dateTo": null
+        }
+      ],
+      "bounds": [
+        -116.509953,
+        48.995911,
+        -116.509953,
+        48.995911
+      ],
+      "distance": null,
+      "datetimeFirst": {
+        "utc": "2016-04-04T20:00:00Z",
+        "local": "2016-04-04T13:00:00-07:00"
+      },
+      "datetimeLast": {
+        "utc": "2024-11-14T19:00:00Z",
+        "local": "2024-11-14T11:00:00-08:00"
+      }
+    }
+  ]
+}
